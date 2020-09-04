@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IoTFireBaseFarm</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/Estilos.css">
+	<link rel="<stylesheet" type="text/css" media="screen" href="css/materialize.css">
+</head>
+<body>
+<div id="bg">
+<script src="https://www.gstatic.com/firebasejs/5.5.1/firebase.js"></script>
+
+<script type="text/javascript" src="Javascript.js"></script>
+<h1>Lectura de Sensores</h1>
+	<div id="login" class="login">
+		<p>Login:</p>
+	<div>
+		<div>
+			<label for="correo">Correo</label>	
+			<input type="email" id="correo">
+		</div>
+		<div>
+			<label for="password">Contraseña</label>	
+			<input type="password" id="password">	
+		</div>
+	</div>			
+
+		<button id="signin" onclick="signIn()">Log In</button>
+	</div>
+	<div id="container">
+		<div>Luz:</div>
+			<div id="text">-----</div>
+		<div>Humedad:</div>
+			<div id="text1">-----</div>
+		<div>Temperatura:</div>
+			<div id="text2">-----</div>
+		<div>Luz Artificial	:</div>
+			<div id="rojin">-----</div>
+		<div>Viento:</div>
+			<div id="verdin">-----</div>
+		<div>Seguridad:</div>
+			<div id="seguridah">-----</div>
+		<div>Aspersor:   <button id="prender" onclick="prender()">Prender</button><button id="apagar" onclick="apagar()">Apagar</button></div>
+			<div id="aspersoh">-----</div>
+
+	</div>
+	</div>
+</body>
+</html>

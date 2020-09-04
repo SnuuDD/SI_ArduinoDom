@@ -1,0 +1,56 @@
+body {
+	padding: 50px;
+	padding-left: 20%;
+	text-align: center;
+	align-content: center;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	background-image: url("https://timedotcom.files.wordpress.com/2018/04/farm-museum-viral-memes.jpg");
+}
+#bg{
+
+}
+.login{
+	padding-left: 0%;
+	padding-bottom: 2%;
+	font-size: 20px;
+	margin-left: 25%;
+	background-color: white;
+	width: 35%;
+	border-radius: 7px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: gray;
+	margin-bottom: 10px;
+}
+#container{
+	background-color: white;
+	width: 80%;
+	border-radius: 7px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: gray;
+
+}
+h1{
+	width: 80%;
+	background-color: #f8f8f8;
+	font-weight: bold;
+	border-radius: 2px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: gray;
+}
+.rojo {
+	background-color: red;
+}
+.invisible{
+	visibility: none;
+	color: transparent;
+	background: transparent;
+	height: 0px;
+	font-size: 0px;
+	width: 0px;
+	border:none;
+}
